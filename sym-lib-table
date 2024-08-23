@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "sma_china")(type "KiCad")(uri "${KIPRJMOD}/sma_china.kicad_sym")(options "")(descr ""))
+)
