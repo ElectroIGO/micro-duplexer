@@ -1588,7 +1588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f979797-b93b-41cb-90bb-0afe6f3b9465")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 107.95 106.9731 0)
 			(effects
 				(font
@@ -1597,7 +1597,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "146 MHz"
+		(property "Value" "443 MHz"
 			(at 107.95 109.5131 0)
 			(effects
 				(font
@@ -1642,7 +1642,7 @@
 		(instances
 			(project "micro_diplekser"
 				(path "/84a50910-d3ae-4c0b-99ba-a0e6c3a658ed"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1790,9 +1790,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a91b9713-028e-4a31-a904-32072a6fb1da")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 107.95 84.1131 0)
 			(effects
 				(font
@@ -1801,7 +1800,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "443 MHz"
+		(property "Value" "146 MHz"
 			(at 107.95 86.6531 0)
 			(effects
 				(font
@@ -1846,7 +1845,7 @@
 		(instances
 			(project "micro_diplekser"
 				(path "/84a50910-d3ae-4c0b-99ba-a0e6c3a658ed"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)

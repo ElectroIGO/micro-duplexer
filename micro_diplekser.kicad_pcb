@@ -306,7 +306,7 @@
 		(layer "F.Cu")
 		(uuid "10cbbb3a-5230-49f4-993b-a04f1f3897a0")
 		(at 71.2216 96.8864 90)
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 0 -3.75 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -319,7 +319,7 @@
 				)
 			)
 		)
-		(property "Value" "146 MHz"
+		(property "Value" "443 MHz"
 			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -391,7 +391,7 @@
 			(at 0 -1 90)
 			(size 2.25 2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 7 "Net-(J2-In)")
+			(net 8 "Net-(J3-In)")
 			(pinfunction "In")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -851,7 +851,7 @@
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 8 "Net-(J3-In)")
+			(net 7 "Net-(J2-In)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "01898647-d855-428e-b344-52a92bd52146")
@@ -1652,7 +1652,7 @@
 		(layer "F.Cu")
 		(uuid "47c4e65f-06c3-4445-84ea-bce5c51148dd")
 		(at 71.1976 89.114 90)
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 0 -3.75 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -1665,7 +1665,7 @@
 				)
 			)
 		)
-		(property "Value" "443 MHz"
+		(property "Value" "146 MHz"
 			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1737,7 +1737,7 @@
 			(at 0 -1 90)
 			(size 2.25 2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 8 "Net-(J3-In)")
+			(net 7 "Net-(J2-In)")
 			(pinfunction "In")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -2198,7 +2198,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 7 "Net-(J2-In)")
+			(net 8 "Net-(J3-In)")
 			(pintype "passive")
 			(uuid "a3e355a9-a95c-48de-a416-4d67d8c35286")
 		)
@@ -3199,11 +3199,19 @@
 		(uuid "d35fe961-7b69-4c43-bf4e-c713e05e390d")
 	)
 	(segment
+		(start 70.1708 89.114)
+		(end 68.12235 89.114)
+		(width 2.25)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "737b5ad7-da65-4cc1-8dc4-7301cd79e214")
+	)
+	(segment
 		(start 67.57235 96.92885)
 		(end 67.564 96.9372)
 		(width 2.25)
 		(layer "F.Cu")
-		(net 7)
+		(net 8)
 		(uuid "db41892d-35cf-4691-ac9c-9dc723ac1804")
 	)
 	(segment
@@ -3211,7 +3219,7 @@
 		(end 67.57235 96.92885)
 		(width 2.25)
 		(layer "F.Cu")
-		(net 7)
+		(net 8)
 		(uuid "df2a3934-b136-47a8-9b71-d876bf8e917f")
 	)
 	(segment
@@ -3219,16 +3227,8 @@
 		(end 70.17915 96.92885)
 		(width 2.25)
 		(layer "F.Cu")
-		(net 7)
-		(uuid "feec7799-63a7-44d8-9622-0dfb34114b4a")
-	)
-	(segment
-		(start 70.1708 89.114)
-		(end 68.12235 89.114)
-		(width 2.25)
-		(layer "F.Cu")
 		(net 8)
-		(uuid "737b5ad7-da65-4cc1-8dc4-7301cd79e214")
+		(uuid "feec7799-63a7-44d8-9622-0dfb34114b4a")
 	)
 	(zone
 		(net 2)
