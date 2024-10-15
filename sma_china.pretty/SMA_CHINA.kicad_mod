@@ -96,9 +96,9 @@
 	(pad "2" smd rect
 		(at -2.5 -1.5)
 		(size 1.25 3)
-		(layers "B.Cu" "F.Paste" "F.Mask")
+		(layers "B.Cu" "B.Paste" "B.Mask")
 		(thermal_bridge_angle 45)
-		(uuid "66fd275f-5928-47a8-b98d-8fcdea20d861")
+		(uuid "cb556e13-3df2-4f82-b7a1-92ffe283e568")
 	)
 	(pad "2" smd rect
 		(at 2.5 -1.5)
@@ -110,8 +110,8 @@
 	(pad "2" smd rect
 		(at 2.5 -1.5)
 		(size 1.25 3)
-		(layers "B.Cu" "F.Paste" "F.Mask")
+		(layers "B.Cu" "B.Paste" "B.Mask")
 		(thermal_bridge_angle 45)
-		(uuid "0d9d9f72-748c-4081-8f07-b155621d7f81")
+		(uuid "3e84c981-bfbc-402c-90a4-df16ffc28328")
 	)
 )
